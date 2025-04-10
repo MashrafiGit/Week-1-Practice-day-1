@@ -1,15 +1,17 @@
-#include<stdio.h>
-int main ()
+#include <stdio.h>
+int main()
 {
     // get value from user
     int num;
     scanf("%d\n", &num);
 
     // check zero or non and print
-    if(num==0){
+    if (num == 0)
+    {
         printf("Zero");
     }
-    else{
+    else
+    {
         printf("Non Zero");
     }
 
